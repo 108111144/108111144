@@ -17,8 +17,11 @@
 
 }
 p{
+    font-family:Microsoft JhengHei;
+
     font-size: larger;
     text-align: center;
+   
 }  
 table{
     text-align: center;
@@ -30,9 +33,13 @@ table{
     padding: 20px;
     margin-bottom: 50px;
     border:2px dotted #94c8b1;
+    
     color:#6fbb9a
     
+    
 }
+
+
 header{
     text-align: center;
 }
@@ -41,4 +48,8 @@ nav {
 }
 section{
     text-align: center;
+    table-layout: auto;
+}
+footer{
+    background-color:rgb(255, 219, 38);
 }
