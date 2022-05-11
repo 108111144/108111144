@@ -1,0 +1,27 @@
+header{
+    height: 200px;
+    background-color: #f5f4ba;
+    
+}
+aside{
+    background-color: #decd9e;
+    float:left;
+    width: 20%;
+}
+section{
+    background-color: #ffd483;
+    float:right;
+    width: 80%;
+    
+}
+footer{
+    height: 100px;
+    background-color: #aade9e;
+    clear: both;
+    
+}
+.post{
+    text-align: center;
+    padding: 10px;
+    float:left;
+}

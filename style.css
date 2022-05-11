@@ -26,6 +26,7 @@
     .main{
         background-color: yellow;
     }
+    
 
     main{
         width: 80%;
@@ -57,10 +58,26 @@
     -webkit-box-shadow: 5px -9px 16px #333333;
     -moz-box-shadow: 5px -9px 16px #333333;
     }
-
-
     .div_text_shadow
     {
     text-shadow: 2px 2px 7px #333333;
     }
-    
+    nav{
+        background-color: pink;
+        text-align: right;
+    }
+    nav li{
+        list-style-type: none;
+        display:inline-block ;
+    }
+    nav li a{
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+    }
+    nav li a:hover{
+        background-color: aliceblue;
+        color: red;
+        transition:background-color 2s linear, color 2s ease-in-out;
+    }
