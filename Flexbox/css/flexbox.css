@@ -1,0 +1,70 @@
+@import url('http://fonts.googleapis.com./css2?family=Macondo&display=swap');
+body,ul{
+    margin:0px;
+}
+header{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0%;
+}
+nav{
+    background-color: rgb(255, 254, 198);
+}
+nav ul{
+    display: flex;
+    justify-content:right ;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(55, 0, 255);
+    padding: 10px;
+}
+nav a:hover{
+    background-color: lightyellow;
+    color: red;
+    transition: background-color 1s linear, color 1s ease-in;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    opacity:0.8;
+    
+}
+.title{
+    text-align: center;
+    font-family: 'Macondo',cursive;
+}
+
+#photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#photolist li{
+    list-style-type: none;
+    margin: 10px;
+
+}
+#photolist img{
+     border-radius: 10%;
+     box-shadow: 5px 5px 10px grey;
+}
+#photolist .emptyitem{
+    width: 200px;
+}
+
+.gotop{
+    font-size: 60px;
+    color: blue;
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+}
